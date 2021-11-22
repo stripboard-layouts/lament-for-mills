@@ -7,3 +7,4 @@ Most layouts have been developed for the Tayda Electronics "small" (SKU A-5031) 
 ## Available Layouts
 
 * Dual Serge R6 Gate (VCA)
+* CGS26 Analog Logic Voltage Processor
