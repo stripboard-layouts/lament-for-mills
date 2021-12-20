@@ -1,0 +1,1 @@
+Note: Photos are provided to clarify construction details only. The photographed build contains errors and older component values that have been corrected and updated in the layouts. Defer to the layouts!
