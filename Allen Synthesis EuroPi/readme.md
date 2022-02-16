@@ -1,0 +1,1 @@
+Update: Now that PCBs are available, I strongly recommend going that route instead of using this stripboard layout. Building it this way was a big PITA and buying PCBs will support a great project: https://checkout.square.site/buy/4V5NTYN3ZTLNPT2LP2VTJKZX
