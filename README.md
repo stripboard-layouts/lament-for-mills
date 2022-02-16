@@ -10,6 +10,7 @@ Most layouts have been developed for the Tayda Electronics "small" (SKU A-5031) 
 * CGS26 Analog Logic Voltage Processor
 * CGS36 Pulse Divider and Boolean Logic
 * CGS55 Analog Switch Matrix
+* CGS89 Gate Sequencer
 * CGS114 Serge Dual Universal Slope Generator
 * Allen Synthesis EuroPi
 * Dual NLC Segue
