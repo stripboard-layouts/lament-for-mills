@@ -2142,7 +2142,7 @@
       <borderColor hex="5b90b1"/>
       <labelColor hex="000000"/>
       <leadColor hex="cccccc"/>
-      <display>NAME</display>
+      <display>VALUE</display>
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
@@ -3614,7 +3614,7 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.passive.Resistor>
-      <name>R26</name>
+      <name>RLED</name>
       <alpha>127</alpha>
       <length value="6.5" unit="mm"/>
       <width value="2.2" unit="mm"/>
@@ -3627,7 +3627,7 @@
       <borderColor hex="5b90b1"/>
       <labelColor hex="000000"/>
       <leadColor hex="cccccc"/>
-      <display>VALUE</display>
+      <display>NAME</display>
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
@@ -6073,65 +6073,46 @@
     </diylc.misc.Label>
   </components>
   <groups>
+    <set/>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[21]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[20]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[19]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[20]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[21]"/>
     </set>
-    <set/>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[58]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[19]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[55]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[53]"/>
-      <diylc.semiconductors.DiodeGlass reference="../../../components/diylc.semiconductors.DiodeGlass[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[52]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[26]"/>
-      <diylc.semiconductors.DiodePlastic reference="../../../components/diylc.semiconductors.DiodePlastic[3]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[25]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[51]"/>
-      <diylc.semiconductors.DiodeGlass reference="../../../components/diylc.semiconductors.DiodeGlass[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[54]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[57]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[16]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[18]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[17]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[13]"/>
+    </set>
+    <set>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[52]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[51]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[54]"/>
+      <diylc.semiconductors.DiodeGlass reference="../../../components/diylc.semiconductors.DiodeGlass[7]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[54]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[52]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.semiconductors.DiodeGlass reference="../../../components/diylc.semiconductors.DiodeGlass[6]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[53]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[58]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[51]"/>
+      <diylc.semiconductors.DiodePlastic reference="../../../components/diylc.semiconductors.DiodePlastic[3]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[56]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[55]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[19]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[54]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[51]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[57]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[52]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[53]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[7]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[26]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[25]"/>
     </set>
-    <set>
-      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[43]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[14]"/>
-      <diylc.connectivity.TraceCut reference="../../../components/diylc.connectivity.TraceCut[62]"/>
-      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[3]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[13]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[9]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[2]"/>
-      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[45]"/>
-      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[44]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[11]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[10]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot"/>
-      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[6]"/>
-      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[4]"/>
-      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[46]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[50]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[8]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[7]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[18]"/>
-      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[5]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[6]"/>
-      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[12]"/>
-    </set>
-    <set/>
     <set>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
@@ -6139,16 +6120,34 @@
       <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[12]"/>
     </set>
     <set>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[15]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[12]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[15]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[11]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[10]"/>
     </set>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[16]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[18]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[17]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[13]"/>
+      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[45]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[13]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot"/>
+      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[6]"/>
+      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[5]"/>
+      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[46]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[50]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[12]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[11]"/>
+      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[3]"/>
+      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[43]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[9]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[2]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[10]"/>
+      <diylc.connectivity.TraceCut reference="../../../components/diylc.connectivity.TraceCut[62]"/>
+      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[4]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[6]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[8]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[7]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[18]"/>
+      <diylc.passive.Resistor reference="../../../components/diylc.passive.Resistor[44]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[14]"/>
     </set>
   </groups>
   <lockedLayers/>
